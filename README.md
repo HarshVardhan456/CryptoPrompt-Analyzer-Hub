@@ -1,18 +1,44 @@
-Bitcoin-analyzer-with-prompts
-Analyzes bitcoin based on openai and playground.openai
 
-Install following packages
+# 🚀 **Bitcoin Analyzer with Prompts**  
+Analyzes Bitcoin trends and data using **OpenAI** and **Playground** to provide smart insights through prompts.  
 
-import openai
+## 🛠️ **Installation**  
+Install the required packages:  
+```bash
+pip install openai requests json streamlit
+```
 
-import requests
+## 🔑 **API Key Setup**  
+Generate your own API key from [OpenAI](https://platform.openai.com/signup).  
 
-import json
+## 💻 **Run the App**  
+Start the app using Streamlit:  
+```bash
+streamlit run app-ui.py
+```
 
-import streamlit as st
+## 📂 **Project Structure**  
+```
+📁 bitcoin-analyzer-with-prompts
+├── app-ui.py
+├── requirements.txt
+└── README.md
+```
 
-Generate your own api key from openai
+## 🌟 **Features**  
+✅ Real-time Bitcoin analysis  
+✅ AI-driven insights using OpenAI  
+✅ User-friendly prompt-based interface  
 
-To run code stramlit run app-ui.py
+## 🎯 **Screenshots**  
+![image](https://github.com/user-attachments/assets/63ef0d3b-bcce-411f-898c-212a75cf38c3)
 
-![image](https://github.com/user-attachments/assets/c2167603-ac45-4d6c-a8e3-b29eb49ece6b)
+
+
+This format improves readability with:  
+✅ Clear sectioning using emojis and headers  
+✅ Code blocks for easy copying  
+✅ Placeholder for a screenshot (replace with an actual image)  
+✅ Clean project structure outline  
+
+Let me know if you’d like to adjust anything! 😎
